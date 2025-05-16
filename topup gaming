@@ -1,90 +1,50 @@
-<!DOCTYPE html>
-<html lang="ms">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Topup MLBB Murah</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', sans-serif;
-            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-            color: #fff;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            text-align: center;
-            padding: 40px 20px;
-            background-color: rgba(0, 0, 0, 0.4);
-        }
-        header h1 {
-            font-size: 2.5em;
-            margin-bottom: 10px;
-        }
-        header p {
-            font-size: 1.2em;
-            color: #ccc;
-        }
-        section {
-            max-width: 700px;
-            margin: 30px auto;
-            background: rgba(255, 255, 255, 0.1);
-            padding: 20px;
-            border-radius: 10px;
-        }
-        .price-list {
-            list-style: none;
-            padding: 0;
-        }
-        .price-list li {
-            background: rgba(255, 255, 255, 0.1);
-            padding: 12px;
-            margin: 10px 0;
-            border-radius: 8px;
-        }
-        .whatsapp-button {
-            display: block;
-            text-align: center;
-            margin: 30px auto;
-            width: fit-content;
-            padding: 15px 30px;
-            background-color: #25D366;
-            color: white;
-            font-size: 1.2em;
-            text-decoration: none;
-            border-radius: 50px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-            transition: background-color 0.3s;
-        }
-        .whatsapp-button:hover {
-            background-color: #1da851;
-        }
-        footer {
-            text-align: center;
-            padding: 20px;
-            font-size: 0.9em;
-            color: #aaa;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Topup MLBB Murah & Pantas</h1>
-        <p>Trusted Seller | Instant Proses | Harga Terendah</p>
-    </header>
-    <section>
-        <h2>Senarai Harga:</h2>
-        <ul class="price-list">
-            <li>86 Diamonds – RM5.20</li>
-            <li>172 Diamonds – RM10.40</li>
-            <li>257 Diamonds – RM15.60</li>
-            <li>344 Diamonds – RM20.80</li>
-            <li>514 Diamonds – RM31.20</li>
-        </ul>
-        <a class="whatsapp-button" href="https://wa.me/60123456789" target="_blank">Tempah Sekarang di WhatsApp</a>
-    </section>
-    <footer>
-        &copy; 2025 Topup MLBB | Dibina dengan GitHub Pages
-    </footer>
-</body>
-</html>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #4A4A4A;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.game-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+.game-card {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+footer {
+    background-color: #4A4A4A;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
